@@ -1,0 +1,31 @@
+{
+  "name": "rhui",
+  "version": "1.0.0",
+  "description": "a React Component with React-Hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joursion/rhui.git"
+  },
+  "keywords": [
+    "React",
+    "React-Hooks",
+    "Component",
+    "UI"
+  ],
+  "author": "Joursion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joursion/rhui/issues"
+  },
+  "homepage": "https://github.com/Joursion/rhui#readme",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-transition-group": "^4.0.0"
+  }
+}

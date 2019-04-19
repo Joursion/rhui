@@ -1,0 +1,43 @@
+:global {
+  .tab {
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 36px;
+  }
+
+  .tab-inner {
+    display: flex;
+  }
+
+  .tab-tit {
+    line-height: 88px;
+    color: rgba(198, 198, 198, 1);
+    font-size: 28px;
+    text-align: center;
+    font-weight: 800;
+    flex: 1;
+  }
+
+  .tab-tit.active {
+    color: rgba(255, 173, 38, 1);
+  }
+
+  .tab-bar {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    transition: transform .25s;
+  }
+
+  .tab-bar::after {
+    content: ' ';
+    display: block;
+    height: 2px;
+    background-color: RGBA(255, 173, 38, 1);
+    width: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
